@@ -1,0 +1,624 @@
+@charset "UTF-8";
+/*main style*/
+html , body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.7rem;
+    
+}
+a{
+    color: white;
+    text-decoration: underline;
+}
+/*title*/
+title img{
+    background-color:#a5c926 ;
+}
+/*header*/
+.nav-top{
+    background-color: #a5c926;
+    color: #fff;
+    line-height: 16px;
+    height: 40px;
+    width: 100%;
+}
+ .nav-top .nav-top-call{
+    margin-left: 80px !important;
+    font-size: 11px;
+    position: relative;
+    top: 8px;
+}
+.nav-top .nav-top-email{
+    font-size: 11px;
+    position: relative; 
+    left: 220px;  
+    bottom: 9px;
+}
+.nav-top .nav-social{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 25px;
+    right: 100px;
+    
+}
+.nav-top .nav-social img{
+    margin: 0 10px;
+}
+.nav-top .nav-social a:hover{
+    background-color: gray;
+    opacity: .3;
+    border-radius: 100%;
+    padding: 5px 1px 5px 1px;    
+}
+    /*navbar*/
+nav{
+    background-color: white;  
+    text-decoration: none;
+    font-size:15px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.navbar-brand{
+    margin-left: 30px;
+    font-size: 20px;
+    color: #111;
+    text-decoration: none;
+}
+.nav-link{
+    padding: 16px 30px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: auto;
+    position: relative;
+    display: inline-block;
+    color: #111;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: #111;
+    text-decoration: underline;
+}
+
+
+
+.navbar ul ,
+.footer ul{
+    margin-left: 60px;
+}
+ .cart{
+     position: relative;
+     left: 600px;
+     top: 10px;
+     font-size:24px;
+     background-color: white;
+     border: none;
+    text-decoration: none;
+ }
+ .cart:focus , 
+ .card .card-1 a:focus ,
+ .card .card-2 a:focus{
+     outline: none;
+ }
+ .cart .count{
+    background-color: #a5c926;
+    background-size: cover;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+     text-align: center;
+     border-radius: 50%;
+     width: 20px;
+     height: 20px;
+     position: relative;
+     left: 80px;
+     bottom: 20px;
+     transform: scale(1);
+
+ }
+ /*banner*/
+ .banner{
+     background: url(../images/banner/5baddd4835e113c6299a48f5_li-tzuni-507346-unsplash.jpg);
+     background-size: cover;
+     background-position: 50% 94%;
+     height: auto;
+     background-repeat: no-repeat;
+     height: 500px;    
+ }
+ .banner .hello{
+    width: 580px;
+    height: 300px;
+    padding: 40px;
+    background-color: #fff;
+    position: relative;
+    top: 100px;
+    right:-260px;
+    border-radius: 16px;
+    animation-name: hello;  
+    animation-duration: 2s;
+ }
+ @keyframes hello{
+     0% {opacity: 0;}
+     100% { opacity: 1;}
+
+ }
+ .banner .hello .text h6{
+    margin-bottom: 16px;
+    color: #a5c926;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 600;
+ }
+ .banner .hello .text h1{
+    font-size: 42px;
+    padding-top: 10px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 400;
+ }
+ .banner .hello .text a ,
+ .avalible a ,
+ .subscribe .sub-name a ,
+ .instgram-gallery .button{
+     background-color:#a5c926 ;
+     color: #fff;
+     text-decoration: none;
+     padding: 10px;
+     border-radius: 30px;
+ }
+ .banner .hello .text a:hover ,
+ .card .card-1 a:hover ,
+ .card .card-2 a:hover ,
+ .avalible a:hover ,
+ .subscribe .sub-name a:hover ,
+ .instgram-gallery .button:hover{
+     box-shadow: 1px 1px 5px black;
+ }
+ .banner .mouse-scroll a{
+     background-color:white;
+     padding: 20px; 
+     border-radius: 100%;
+     border: #fff;
+     box-shadow:  2px 2px 5px #111;
+     position: relative;
+     top: 180px;
+     left: 650px;
+     animation-name: hello;  
+     animation-duration: 6s; 
+     z-index: 1; 
+ }
+ @keyframes mouse{
+     0% {opacity: 0;}
+     50% {opacity: .5;}
+     100%{opacity: 1;}
+
+ }
+ /*card*/
+ .card{
+     animation-name: card;
+     animation-duration: 8s;
+     height: 600px;
+ }
+ @keyframes card{
+     0%{opacity: 0;}
+     100%{opacity: 1;}
+ }
+
+ .card .card-1 , 
+ .card .card-2{
+     background-color: #ffc12c;
+     border-radius: 15px;
+     width: 550px;
+     height: 200px;
+     
+ }
+ .card .teddy img ,
+ .card .wood img{
+     position: relative;
+     top: 110px;
+ }
+ .card .card-1 h3 ,
+ .card .card-2 h3{
+     position: relative;
+     left: 250px;
+     top: 80px;
+     font-size: 30px;
+    line-height: 32px;
+    font-family: 'Varela Round', sans-serif;
+ }
+ .card .card-2 h3{
+     position: relative;
+     left: 100px;
+ }
+ .card .card-2 a{
+    color: #111;
+    background-color: #fff;
+    border: none !important;
+    border-radius: 20px !important;
+    padding:10px 30px;
+    font-size: 15px;
+    font-weight: 600;
+    transform: scale(1);
+    position: relative;
+    top: 100px;
+    left: 120px;
+    text-decoration: none;
+    
+ }
+.card .card-1 a{
+    color: #111;
+    background-color: #fff;
+    border: none !important;
+    border-radius: 20px !important;
+    padding:10px 30px;
+    font-size: 15px;
+    font-weight: 600;
+    transform: scale(1);
+    position: relative;
+    top: 100px;
+    left: 280px;
+    text-decoration: none;
+}
+.card .card-2{
+    background-color: #fb416b;
+}
+.row .wood{
+    position: relative;
+    left: 650px;
+    bottom: 400px;
+}
+.row .wood img{
+    left: 300px;
+}
+/*stuffed*/
+.stuffed-animals ,
+.wooden-toys {
+    position: relative;
+    bottom: 50px;
+}
+.stuffed-animals h3 ,
+.wooden-toys h3{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    font-family: 'Varela Round', sans-serif;  
+}
+.stuffed-animals hr ,
+.wooden-toys hr ,
+.avalible hr{
+     width: 10%;
+    border:2px solid #c0f308;
+    position: relative;
+    right: 500px;
+}
+.stuffed .all-toys ,
+.wooden .all-toys {
+    position: relative;
+    bottom: 110px;
+}
+.stuffed .all-toys a ,
+.wooden .all-toys a{
+    color: #111;
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+    left: 1050px;
+    text-decoration: none;
+    border-bottom: 2px solid #ddd;
+}
+.wooden .all-toys a{
+    top: 120px;
+}
+
+.stuffed .all-toys a:hover ,
+.wooden .all-toys a:hover{
+    border-bottom: 2px solid #a5c926;
+}
+/*stuffed*/
+.stuffed-animal{
+    margin-bottom: 50px;
+}
+.stuffed-animal .row{
+    display: flex;
+    justify-content: center;
+    animation-name: row;
+    animation-duration: 8s;
+}
+.stuffed-animal .row a:hover{
+    text-decoration: none;
+    transform: scale(1.1);
+
+}
+.stuffed-animal .row .stuffed-catalog{
+    background-color: #fff;
+    box-shadow: 1px 1px 5px rgba(133, 132, 132, 0.548);
+    border-radius: 15px;
+    margin: 25px;
+    height: 350px;
+}
+.stuffed-animal .row .stuffed-catalog .product-name{
+    text-decoration: none;
+    font-size: 16px;
+    color: #111;
+
+}
+.stuffed-animal .row .stuffed-catalog .product-price{
+    color: #fff;
+    font-size: 6px;
+    background-color: #a5c926;
+    text-decoration: underline #a5c926;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    left: 60px;
+    border-radius: 16px;
+}
+
+@keyframes row{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+/*wwoden toys*/
+.wooden-toys{
+    position: relative;
+    top: 60px;
+}
+/*jumbotron*/
+.jumbotron{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) , url(../images/jumbotron/5baf3d57ace69c149bb331b8_tim-gouw-165547-unsplash.jpg);
+    height: 500px;
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.jumbotron .heading{
+    padding-top: 80px;
+    font-family: 'Varela Round', sans-serif;
+    animation-name: heading;
+    animation-duration: 10s;
+}
+.jumbotron .heading h6 ,
+.subheading h6 ,
+.instgram h6{
+    font-size: 13px;
+    font-weight: 300;
+}
+.jumbotron .heading h1 ,
+.subheading h1 ,
+.instgram h1{
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.jumbotron .heading p{
+    margin-bottom: 40px;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+.jumbotron a img{
+    background-color:#a5c926;
+    border-radius: 100%;
+    padding: 20px;
+}
+.jumbotron a img:hover{
+    transform: scale(1.1);
+}
+@keyframes heading{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+/*subheading*/
+.subheading{
+    margin-top: 100px;
+    font-family: 'Varela Round', sans-serif;
+
+}
+.subheading h6 ,
+.instgram h6{
+    color: #a5c926;
+}
+.avalible{
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 130px;
+}
+.avalible h2{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+}
+.avalible hr{
+    border:1px solid #c0f308; 
+}
+.avalible p{
+    color: #999;
+    margin-bottom: 28px;
+    font-size: 14px;
+    line-height: 24px;
+}
+.avalible a{
+    height: 48px;
+    padding: 12px 28px;
+    border-radius: 24px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+}
+.avalible-img img{
+    border-radius: 15px;
+    position: relative;
+    left: 580px;
+    bottom: 280px;
+    animation-name: img;
+     animation-duration: 12s;
+}
+@keyframes img{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+    
+}
+/*suscribe*/
+.subscribe{
+    position: relative;
+    bottom: 100px;
+    background-color: white;
+    box-shadow:2px 2px 5px rgba(0, 0, 0, 0.37) ;
+    width: 85%;
+    height: 150px;
+    left: 100px;
+    border-radius: 15px;
+    animation-name: subscribe;
+    animation-duration: 2s;
+}
+.subscribe .sub-text h4{
+    position: relative;
+    left: 100px;
+    bottom: 30px;
+    margin-bottom: 16px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+}
+.subscribe .sub-text h4 span{
+    color: #a5c926;
+}
+.subscribe .sub-text img{
+    background-color: #a5c926;
+    padding: 15px;
+    border-radius: 100%;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+.subscribe .sub-name{
+    position: relative;
+    left: 600px;
+    bottom: 80px;
+}
+input{
+    width: 350px;
+    height: 50px;
+    text-align: left;
+    border-radius: 30px;
+    border-color:rgb(202, 202, 202);
+    border: 1px 1px 1px;
+
+}
+input:focus{
+    outline: none;
+    border-color: #a5c926;
+
+}
+input[type="email"]::placeholder{
+    padding-left: 10px;
+    text-align: start;
+}
+.subscribe .sub-name a{
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    left: 20px;
+}
+
+
+@keyframes subscribe{
+0%{opacity: 0;}
+100%{opacity: 1;}
+
+}
+/*instgram*/
+.instgram{
+    padding-top: 50px;
+    font-family: 'Varela Round', sans-serif;
+}
+ .instgram-gallery .images{
+   padding-left: 60px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+.instgram-gallery .images a img{
+    margin: 10px;
+    border-radius: 15px;
+    animation-name: images;
+    animation-duration: 2s;
+    
+}
+@keyframes images{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+ }
+ .instgram-gallery .images a img:hover{
+     transform: scale(1.1);
+     box-shadow:1px 1px 3px #999;
+ }
+.instgram-gallery .button{
+    height: 48px;
+    padding: 18px 28px;
+    border-radius: 24px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    position: relative;
+    left: 600px;
+
+ }
+/*footer*/
+.footer nav{
+    background-color: #a5c926;
+    margin-top: 100px;
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+    height: 100px;
+}
+.footer .navbar-brand{
+    color: #fff;
+    position: relative;
+    left: 65px;  
+}
+.footer .nav-item{
+    position: relative;
+    left: 280px;
+}
+.footer .nav-link{
+    color: #fff;
+}
+.footer .nav-social img{
+    position: relative;
+    right: 50px;
+    margin: 0 5px;
+}
+
+.footer .nav-social img:hover{
+ background-color: gray;
+    opacity: .3;
+    border-radius: 100%;
+    padding: 7px 7px 5px 1px;
+
+}
+.footer .copyright{
+    background-color: #a5c926;
+    position: relative;
+    bottom: 20px;
+    font-size: 11px;
+
+}
+.footer .copyright .right{
+    position: relative;
+    left: 950px;
+    bottom: 30px;
+}
+.footer .copyright .right a{
+    margin: 5px;
+}
+
+
+
+
+ 
+
+ 
+ 
+

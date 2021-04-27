@@ -1,0 +1,360 @@
+@charset "UTF-8";
+/*main style*/
+html , body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.7rem;
+    
+}
+a{
+    color: white;
+    text-decoration: underline;
+}
+/*title*/
+title img{
+    background-color:#a5c926 ;
+}
+/*header*/
+.nav-top{
+    background-color: #a5c926;
+    color: #fff;
+    line-height: 16px;
+    height: 40px;
+    width: 100%;
+}
+ .nav-top .nav-top-call{
+    margin-left: 80px !important;
+    font-size: 11px;
+    position: relative;
+    top: 8px;
+}
+.nav-top .nav-top-email{
+    font-size: 11px;
+    position: relative; 
+    left: 220px;  
+    bottom: 9px;
+}
+.nav-top .nav-social{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 25px;
+    right: 100px;
+    
+}
+.nav-top .nav-social img{
+    margin: 0 10px;
+}
+.nav-top .nav-social a:hover{
+    background-color: gray;
+    opacity: .3;
+    border-radius: 100%;
+    padding: 5px 1px 5px 1px;    
+}
+    /*navbar*/
+nav{
+    background-color: white;  
+    text-decoration: none;
+    font-size:15px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.navbar-brand{
+    margin-left: 30px;
+    font-size: 20px;
+    color: #111;
+    text-decoration: none;
+}
+.nav-link{
+    padding: 16px 30px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: auto;
+    position: relative;
+    display: inline-block;
+    color: #111;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: #111;
+    text-decoration: underline;
+}
+
+
+
+.navbar ul ,
+.footer ul{
+    margin-left: 60px;
+}
+ .cart{
+     position: relative;
+     left: 600px;
+     top: 10px;
+     font-size:24px;
+     background-color: white;
+     border: none;
+    text-decoration: none;
+ }
+ .cart:focus , 
+ .card .card-1 a:focus ,
+ .card .card-2 a:focus{
+     outline: none;
+ }
+ .cart .count{
+    background-color: #a5c926;
+    background-size: cover;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+     text-align: center;
+     border-radius: 50%;
+     width: 20px;
+     height: 20px;
+     position: relative;
+     left: 80px;
+     bottom: 20px;
+     transform: scale(1);
+
+ }
+ .breadcrumb{
+     border-radius: 20px;
+ }
+ .breadcrumb li a{
+     color:gray;
+     text-decoration: none;
+ }
+ /*contact*/
+ .contact{
+     box-shadow: 1px 1px 1px 3px rgba(170, 169, 169, 0.589);
+     width: 1200px;
+     position: relative;
+     left: 100px;
+     border-radius: 15px;
+     height: 1000px;
+ }
+ .contact .map{
+     position: relative;
+     top: 20px;
+     left: 50px;
+ }
+ .contact iframe{
+     border-radius: 15px;
+ }
+ .contact .contact-us{
+     margin-top: 90px;
+     position: relative;
+     left: 50px;
+     font-family: 'Varela Round', sans-serif;
+ }
+ .contact .contact-us h4{
+    font-size: 20px;
+    line-height: 28px;
+ }
+ .contact .contact-us input ,
+ .contact .contact-us textarea{
+    height: 48px;
+    margin-bottom: 24px;
+    padding-right: 28px;
+    padding-left: 28px;
+    border: 2px solid #e5e5e5;
+    border-radius: 24px;
+    background-color: #f8f8f8;
+    width: 50%;
+ }
+ 
+ .contact .contact-us textarea{
+     height: 100px;
+ }
+ .contact .contact-info{
+     position: relative;
+     left: 750px;
+     bottom: 400px;
+ }
+ .contact .contact-info .email a{
+     color: #111;
+     text-decoration: none;
+     border-bottom: 2px solid #ddd;
+ }
+ .contact .contact-info .email a:hover{
+     border-bottom: 2px solid #a5c926;
+ }
+ .contact .contact-info .follow{
+     padding-top: 30px;
+ }
+ .contact .contact-info a img:hover{
+     transform: scale(1.1);
+ }
+ /*instgram*/
+.instgram{
+    padding-top: 200px;
+    font-family: 'Varela Round', sans-serif;
+}
+ .instgram-gallery .images{
+   padding-left: 60px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+.instgram-gallery .images a img{
+    margin: 10px;
+    border-radius: 15px;
+    animation-name: images;
+    animation-duration: 2s;
+    
+}
+@keyframes images{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+ }
+ .instgram-gallery .images a img:hover{
+     transform: scale(1.1);
+     box-shadow:1px 1px 3px #999;
+ }
+.instgram-gallery .button{
+    height: 48px;
+    padding: 18px 28px;
+    border-radius: 24px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    position: relative;
+    left: 600px;
+    background-color: #a5c926;
+    text-decoration: none;
+ }
+ .instgram-gallery .button:hover ,
+ .subscribe .sub-name a:hover{
+     color: #fff;
+     box-shadow: 1px 1px 1px rgba(150, 150, 150, 0.616);
+ }
+ /*suscribe*/
+.subscribe{
+    position: relative;
+    background-color: white;
+    top: 100px;
+    box-shadow:2px 2px 5px rgba(0, 0, 0, 0.37) ;
+    width: 85%;
+    height: 150px;
+    left: 100px;
+    border-radius: 15px;
+    animation-name: subscribe;
+    animation-duration: 2s;
+}
+.subscribe .sub-text h4{
+    position: relative;
+    left: 100px;
+    bottom: 30px;
+    margin-bottom: 16px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+}
+.subscribe .sub-text h4 span{
+    color: #a5c926;
+}
+.subscribe .sub-text img{
+    background-color: #a5c926;
+    padding: 15px;
+    border-radius: 100%;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+.subscribe .sub-name{
+    position: relative;
+    left: 600px;
+    bottom: 80px;
+}
+input{
+    width: 350px;
+    height: 50px;
+    text-align: left;
+    border-radius: 30px;
+    border-color:rgb(202, 202, 202);
+    border: 1px 1px 1px;
+
+}
+input:focus{
+    outline: none;
+    border-color: #a5c926;
+
+}
+input[type="email"]::placeholder{
+    padding-left: 10px;
+    text-align: start;
+}
+.subscribe .sub-name a{
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    left: 20px;
+    background-color: #a5c926;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+
+@keyframes subscribe{
+0%{opacity: 0;}
+100%{opacity: 1;}
+
+}
+/*footer*/
+.footer nav{
+    background-color: #a5c926;
+    margin-top: 250px;
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+    height: 100px;
+}
+.footer .navbar-brand{
+    color: #fff;
+    position: relative;
+    left: 65px;  
+}
+.footer .nav-item{
+    position: relative;
+    left: 280px;
+}
+.footer .nav-link{
+    color: #fff;
+}
+.footer .nav-social img{
+    position: relative;
+    right: 50px;
+    margin: 0 5px;
+}
+
+.footer .nav-social img:hover{
+ background-color: gray;
+    opacity: .3;
+    border-radius: 100%;
+    padding: 7px 7px 5px 1px;
+
+}
+.footer .copyright{
+    background-color: #a5c926;
+    position: relative;
+    bottom: 20px;
+    font-size: 11px;
+
+}
+.footer .copyright .right{
+    position: relative;
+    left: 950px;
+    bottom: 30px;
+}
+.footer .copyright .right a{
+    margin: 5px;
+}
+
+
+
+
+ 
+
+ 
+ 
+
+
+

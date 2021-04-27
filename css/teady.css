@@ -1,0 +1,370 @@
+@charset "UTF-8";
+/*main style*/
+html , body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.7rem;
+    
+}
+a{
+    color: white;
+    text-decoration: underline;
+}
+/*title*/
+title img{
+    background-color:#a5c926 ;
+}
+/*header*/
+.nav-top{
+    background-color: #a5c926;
+    color: #fff;
+    line-height: 16px;
+    height: 40px;
+    width: 100%;
+}
+ .nav-top .nav-top-call{
+    margin-left: 80px !important;
+    font-size: 11px;
+    position: relative;
+    top: 8px;
+}
+.nav-top .nav-top-email{
+    font-size: 11px;
+    position: relative; 
+    left: 220px;  
+    bottom: 9px;
+}
+.nav-top .nav-social{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 25px;
+    right: 100px;
+    
+}
+.nav-top .nav-social img{
+    margin: 0 10px;
+}
+.nav-top .nav-social a:hover{
+    background-color: gray;
+    opacity: .3;
+    border-radius: 100%;
+    padding: 5px 1px 5px 1px;    
+}
+    /*navbar*/
+nav{
+    background-color: white;  
+    text-decoration: none;
+    font-size:15px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.navbar-brand{
+    margin-left: 30px;
+    font-size: 20px;
+    color: #111;
+    text-decoration: none;
+}
+.nav-link{
+    padding: 16px 30px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: auto;
+    position: relative;
+    display: inline-block;
+    color: #111;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: #111;
+    text-decoration: underline;
+}
+
+
+
+.navbar ul ,
+.footer ul{
+    margin-left: 60px;
+}
+ .cart{
+     position: relative;
+     left: 600px;
+     top: 10px;
+     font-size:24px;
+     background-color: white;
+     border: none;
+    text-decoration: none;
+ }
+ .cart:focus , 
+ .card .card-1 a:focus ,
+ .card .card-2 a:focus{
+     outline: none;
+ }
+ .cart .count{
+    background-color: #a5c926;
+    background-size: cover;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+     text-align: center;
+     border-radius: 50%;
+     width: 20px;
+     height: 20px;
+     position: relative;
+     left: 80px;
+     bottom: 20px;
+     transform: scale(1);
+
+ }
+ .breadcrumb{
+     border-radius: 20px;
+ }
+ .breadcrumb li a{
+     color:gray;
+     text-decoration: none;
+ }
+ /*product*/
+ .product .product-info{
+     box-shadow: 1px 1px 2px 1px gray;
+     border-radius: 15px;
+     padding-top: 100px;
+     padding-left: 50px;
+     font-family: 'Varela Round', sans-serif;
+     height: 1300px;
+ }
+ .product .product-info h1{
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 400;
+ }
+ .product .product-info p{
+    color: #999;
+    margin-bottom: 28px;
+    font-size: 14px;
+    line-height: 24px;
+ }
+ .product .product-info .product-price{
+    color: #a5c926;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    margin-bottom: 32px;
+ }
+ .product .product-info form label{
+    width: 100%;
+    margin-bottom: 8px;
+    color: #111;
+    font-size: 12px;
+    font-weight: 600;
+ }
+ .product .product-info form input{
+    width: 88px;
+    margin-right: 12px;
+    height: 48px;
+    padding-right: 28px;
+    padding-left: 28px;
+    border: 2px solid #e5e5e5;
+    border-radius: 24px;
+    background-color: #f8f8f8;
+ }
+ .product .product-info form input:focus{
+     border: 2px solid #a5c926;
+ }
+ .product .product-info form a{
+    height: 48px;
+    padding: 12px 28px;
+    border-radius: 24px;
+    background-color: #a5c926;
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    text-decoration: none;
+ }
+ .product .product-info form a:hover{
+     box-shadow: 1px 1px 1px rgb(168, 167, 167);
+     transform: scale(1.2);
+ }
+ .product .product-info .image img{
+     position: relative;
+     left: 500px;
+     bottom: 400px;
+ }
+ .product-details{
+     position: relative;
+     bottom: 750px;
+     left: 50px; 
+     font-family: 'Varela Round', sans-serif;
+ }
+ .product-details h5{
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 400;
+ }
+ .product-details hr{
+     width: 15%;
+     border: 1px solid #a5c926;
+     position: relative;
+     right: 480px;
+ }
+ .product-details .sku hr{
+     width: 90%;
+     border: 1px solid rgba(128, 128, 128, 0.459);
+     position: relative;
+     left: 1px;
+     bottom: 18px;
+ }
+ .product-details .sku .sku-text{
+    color: #999;
+    font-size: 11px;
+    line-height: 16px;
+    position: relative;
+    left: 900px;
+    bottom: 70px;
+ }
+  .details{
+     position: relative;
+     bottom: 750px;
+     left: 50px;
+     font-family: 'Varela Round', sans-serif;
+
+ }
+ .details h4{
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 16px;
+    font-weight: 400;
+ }
+ .details p{
+    margin-bottom: 28px;
+    font-size: 14px;
+    line-height: 24px;
+ }
+
+
+ /*suscribe*/
+.subscribe{
+    position: relative;
+    background-color: white;
+    top: 150px;
+    box-shadow:2px 2px 5px rgba(0, 0, 0, 0.37) ;
+    width: 85%;
+    height: 150px;
+    left: 100px;
+    border-radius: 15px;
+    animation-name: subscribe;
+    animation-duration: 2s;
+}
+.subscribe .sub-text h4{
+    position: relative;
+    left: 100px;
+    bottom: 30px;
+    margin-bottom: 16px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+}
+.subscribe .sub-text h4 span{
+    color: #a5c926;
+}
+.subscribe .sub-text img{
+    background-color: #a5c926;
+    padding: 15px;
+    border-radius: 100%;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+.subscribe .sub-name{
+    position: relative;
+    left: 600px;
+    bottom: 80px;
+}
+input{
+    width: 350px;
+    height: 50px;
+    text-align: left;
+    border-radius: 30px;
+    border-color:rgb(202, 202, 202);
+    border: 1px 1px 1px;
+
+}
+input:focus{
+    outline: none;
+    border-color: #a5c926;
+
+}
+input[type="email"]::placeholder{
+    padding-left: 10px;
+    text-align: start;
+}
+.subscribe .sub-name a ,
+.instgram-gallery .button{
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    left: 20px;
+    color: #fff;
+    background-color: #a5c926;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.subscribe .sub-name a:hover ,
+.instgram-gallery .button:hover{
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.719);
+}
+
+@keyframes subscribe{
+0%{opacity: 0;}
+100%{opacity: 1;}
+
+}
+/*footer*/
+.footer nav{
+    background-color: #a5c926;
+    margin-top: 150px;
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+    height: 100px;
+}
+.footer .navbar-brand{
+    color: #fff;
+    position: relative;
+    left: 65px;  
+}
+.footer .nav-item{
+    position: relative;
+    left: 280px;
+}
+.footer .nav-link{
+    color: #fff;
+}
+.footer .nav-social img{
+    position: relative;
+    right: 50px;
+    margin: 0 5px;
+}
+
+.footer .nav-social img:hover{
+ background-color: gray;
+    opacity: .3;
+    border-radius: 100%;
+    padding: 7px 7px 5px 1px;
+
+}
+.footer .copyright{
+    background-color: #a5c926;
+    position: relative;
+    bottom: 20px;
+    font-size: 11px;
+
+}
+.footer .copyright .right{
+    position: relative;
+    left: 950px;
+    bottom: 30px;
+}
+.footer .copyright .right a{
+    margin: 5px;
+}

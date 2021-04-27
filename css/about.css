@@ -1,0 +1,472 @@
+@charset "UTF-8";
+/*main style*/
+html , body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.7rem;
+    
+}
+a{
+    color: white;
+    text-decoration: underline;
+}
+/*title*/
+title img{
+    background-color:#a5c926 ;
+}
+/*header*/
+.nav-top{
+    background-color: #a5c926;
+    color: #fff;
+    line-height: 16px;
+    height: 40px;
+    width: 100%;
+}
+ .nav-top .nav-top-call{
+    margin-left: 80px !important;
+    font-size: 11px;
+    position: relative;
+    top: 8px;
+}
+.nav-top .nav-top-email{
+    font-size: 11px;
+    position: relative; 
+    left: 220px;  
+    bottom: 9px;
+}
+.nav-top .nav-social{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 25px;
+    right: 100px;
+    
+}
+.nav-top .nav-social img{
+    margin: 0 10px;
+}
+.nav-top .nav-social a:hover{
+    background-color: gray;
+    opacity: .3;
+    border-radius: 100%;
+    padding: 5px 1px 5px 1px;    
+}
+    /*navbar*/
+nav{
+    background-color: white;  
+    text-decoration: none;
+    font-size:15px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.navbar-brand{
+    margin-left: 30px;
+    font-size: 20px;
+    color: #111;
+    text-decoration: none;
+}
+.nav-link{
+    padding: 16px 30px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: auto;
+    position: relative;
+    display: inline-block;
+    color: #111;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: #111;
+    text-decoration: underline;
+}
+
+
+
+.navbar ul ,
+.footer ul{
+    margin-left: 60px;
+}
+ .cart{
+     position: relative;
+     left: 600px;
+     top: 10px;
+     font-size:24px;
+     background-color: white;
+     border: none;
+    text-decoration: none;
+ }
+ .cart:focus , 
+ .card .card-1 a:focus ,
+ .card .card-2 a:focus{
+     outline: none;
+ }
+ .cart .count{
+    background-color: #a5c926;
+    background-size: cover;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+     text-align: center;
+     border-radius: 50%;
+     width: 20px;
+     height: 20px;
+     position: relative;
+     left: 80px;
+     bottom: 20px;
+     transform: scale(1);
+
+ }
+ .breadcrumb{
+     border-radius: 20px;
+ }
+ .breadcrumb li a{
+     color:gray;
+     text-decoration: none;
+ }
+ /*jumbotron*/
+.title{
+    margin-top: 100px;
+    font-family: 'Varela Round', sans-serif;
+}
+.title .text-title ,
+.subheading .subheading-title{
+    color: #a5c926;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 600;
+}
+.title h1 ,
+.subheading h1{
+    font-size: 32px;
+    line-height: 40px;
+}
+.title p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #999;
+}
+.title a{
+    border-bottom: 2px solid #ddd;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #111;
+    position: relative;
+    bottom: 250px;
+    left: 600px;
+}
+.title a:hover{
+    border-bottom:2px solid #a5c926;
+}
+.title img{
+    border-radius: 15px;
+    position: relative;
+    top: 100px;
+    right: 50px;
+}
+/*subheading*/
+.subheading{
+    margin-top: 200px;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+.instgram h6{
+    color: #a5c926;
+}
+.avalible{
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 130px;
+}
+.avalible h2 ,
+.avalible-2 h2{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+}
+.avalible hr ,
+.avalible-2 hr{
+    border:1px solid #c0f308; 
+    width: 20%;
+    position: relative;
+    right: 440px;
+}
+.avalible p ,
+.avalible-2 p{
+    color: #999;
+    margin-bottom: 28px;
+    font-size: 14px;
+    line-height: 24px;
+}
+.avalible a{
+    height: 48px;
+    padding: 12px 28px;
+    border-radius: 24px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    background-color: #a5c926;
+    text-decoration: none;
+}
+.avalible a:hover ,
+.subscribe a:hover ,
+.instgram-gallery a:hover{
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.555);
+    color: #fff;
+}
+.avalible-img img{
+    border-radius: 15px;
+    position: relative;
+    left: 580px;
+    bottom: 280px;
+    animation-name: img;
+     animation-duration: 12s;
+}
+.avalible-2 a{
+    text-decoration: none;
+    border-bottom: 2px solid #ddd;
+    color: #111;
+    font-size: 13px;
+    font-weight: 600;
+}
+.avalible-2 a:hover{
+    border-bottom: 2px solid #a5c926;
+}
+@keyframes img{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+    
+}
+.avalible-2 .avalible-2-img img{
+    position: relative;
+    bottom: 100px;
+    border-radius: 15px;
+    animation-name: img;
+     animation-duration: 12s;
+}
+.avalible-2 .free-2{
+    position: relative;
+    left: 650px;
+    bottom: 400px;
+}
+.avalible-2 hr{
+    width: 10%;
+    right: 500px;
+}
+/*jumbotron*/
+.jumbotron{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) , url(../images/jumbotron/5baf3d57ace69c149bb331b8_tim-gouw-165547-unsplash.jpg);
+    height: 500px;
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.jumbotron .heading{
+    padding-top: 80px;
+    font-family: 'Varela Round', sans-serif;
+    animation-name: heading;
+    animation-duration: 10s;
+}
+.jumbotron .heading h6 ,
+.subheading h6 ,
+.instgram h6{
+    font-size: 13px;
+    font-weight: 300;
+}
+.jumbotron .heading h1 ,
+.subheading h1 ,
+.instgram h1{
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.jumbotron .heading p{
+    margin-bottom: 40px;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+.jumbotron a img{
+    background-color:#a5c926;
+    border-radius: 100%;
+    padding: 20px;
+}
+.jumbotron a img:hover{
+    transform: scale(1.1);
+}
+@keyframes heading{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+/*suscribe*/
+.subscribe{
+    position: relative;
+    background-color: white;
+    top: 100px;
+    box-shadow:2px 2px 5px rgba(0, 0, 0, 0.37) ;
+    width: 85%;
+    height: 150px;
+    left: 100px;
+    border-radius: 15px;
+    animation-name: subscribe;
+    animation-duration: 2s;
+}
+.subscribe .sub-text h4{
+    position: relative;
+    left: 100px;
+    bottom: 30px;
+    margin-bottom: 16px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+}
+.subscribe .sub-text h4 span{
+    color: #a5c926;
+}
+.subscribe .sub-text img{
+    background-color: #a5c926;
+    padding: 15px;
+    border-radius: 100%;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+.subscribe .sub-name{
+    position: relative;
+    left: 600px;
+    bottom: 80px;
+}
+input{
+    width: 350px;
+    height: 50px;
+    text-align: left;
+    border-radius: 30px;
+    border-color:rgb(202, 202, 202);
+    border: 1px 1px 1px;
+
+}
+input:focus{
+    outline: none;
+    border-color: #a5c926;
+
+}
+input[type="email"]::placeholder{
+    padding-left: 10px;
+    text-align: start;
+}
+.subscribe .sub-name a{
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    left: 20px;
+    background-color: #a5c926;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+
+@keyframes subscribe{
+0%{opacity: 0;}
+100%{opacity: 1;}
+
+}
+/*instgram*/
+.instgram{
+    padding-top: 250px;
+    font-family: 'Varela Round', sans-serif;
+}
+ .instgram-gallery .images{
+   padding-left: 60px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+.instgram-gallery .images a img{
+    margin: 10px;
+    border-radius: 15px;
+    animation-name: images;
+    animation-duration: 2s;
+    
+}
+@keyframes images{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+ }
+ .instgram-gallery .images a img:hover{
+     transform: scale(1.1);
+     box-shadow:1px 1px 3px #999;
+ }
+.instgram-gallery .button{
+    height: 48px;
+    padding: 18px 28px;
+    border-radius: 24px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    position: relative;
+    left: 600px;
+    background-color: #a5c926;
+    text-decoration: none;
+
+ }
+/*footer*/
+.footer nav{
+    background-color: #a5c926;
+    margin-top: 100px;
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+    height: 100px;
+}
+.footer .navbar-brand{
+    color: #fff;
+    position: relative;
+    left: 65px;  
+}
+.footer .nav-item{
+    position: relative;
+    left: 280px;
+}
+.footer .nav-link{
+    color: #fff;
+}
+.footer .nav-social img{
+    position: relative;
+    right: 50px;
+    margin: 0 5px;
+}
+
+.footer .nav-social img:hover{
+ background-color: gray;
+    opacity: .3;
+    border-radius: 100%;
+    padding: 7px 7px 5px 1px;
+
+}
+.footer .copyright{
+    background-color: #a5c926;
+    position: relative;
+    bottom: 20px;
+    font-size: 11px;
+
+}
+.footer .copyright .right{
+    position: relative;
+    left: 950px;
+    bottom: 30px;
+}
+.footer .copyright .right a{
+    margin: 5px;
+}
+
+
+
+
+ 
+
+ 
+ 
+
+
+
